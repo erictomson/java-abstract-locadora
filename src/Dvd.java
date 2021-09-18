@@ -45,7 +45,7 @@ public class Dvd extends ItemAbstrato {
         System.out.println("DVD devolvido: " +
                 " - Situação: " + getSituacaoItem() +
                 " - Data Devolução: " + this.getDataEmprestimo());
-        System.out.println("DVD cadastrado utilizando método abstrato " +
+        System.out.println("DVD devolvido utilizando método abstrato " +
                 "herdado da classe abstrata ItemAbstrato");
     }
 

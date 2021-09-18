@@ -16,7 +16,7 @@ public class Main {
             System.out.println("1 - Cadastrar DVD    " +
                     "2 - Emprestar DVD    3 - Devolver DVD ");
             System.out.println("4 - Cadastrar CDs    " +
-                    "5 - Vender CD    6 - Imprimir CDs");
+                    "5 - Vender CD        6 - Imprimir CDs");
             System.out.println("Opção: ");
 
             // Configurar Scanner para leitura da opção
