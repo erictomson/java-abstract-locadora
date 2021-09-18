@@ -48,6 +48,8 @@ public abstract class ItemAbstrato {
     }
 
     // Métodos abstratos a serem implementados nas subclasses
+    // Métodos abstratos não podem ser privados (private)
+    // Classes abstratas não podem conter métodos estáticos (static)
     public abstract void cadastrar();
 
     public abstract void emprestar();

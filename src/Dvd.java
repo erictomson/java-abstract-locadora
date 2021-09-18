@@ -2,6 +2,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Dvd extends ItemAbstrato {
+    // Classe SimpleDateFormat para tratar datas observando o locale
+    // (configurações regionais do sistema operacional)
     SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
     // Construtor da classe
@@ -54,12 +56,10 @@ public class Dvd extends ItemAbstrato {
                 "concreto da classe DVD");
     }
 
-    // Retorna uma instância da classe DVD para o main
+    // Retorna uma instância da classe DVD
+    // Dispensa criação de um objeto
     public static Dvd getInstance() {
         return new Dvd();
     }
-
-    // Método definido no UML, mas não implementado
-    public void vender() {}
 
 }
